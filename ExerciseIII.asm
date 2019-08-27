@@ -1,0 +1,42 @@
+MOV C, 5;
+MOV D, 2;
+
+SUB C, 3;
+
+MOV A, C;
+MUL A;
+MOV B, A;
+
+SUB D, 1;
+MOV A, D;
+MUL A;
+
+ADD A, B;
+
+CMP A, 25;
+JA MAIOR
+MOV [232], 78;
+MOV [233], 101;
+MOV [234], 103;
+MOV [235], 97;
+MOV [236], 116;
+MOV [237], 105;
+MOV [238], 118;
+MOV [239], 111;
+
+JMP FIM
+
+
+MAIOR:
+MOV [232], 80;
+MOV [233], 111;
+MOV [234], 115;
+MOV [235], 105;
+MOV [236], 116;
+MOV [237], 105;
+MOV [238], 118;
+MOV [239], 111;
+
+FIM:
+
+	Livre de vírus. www.avast.com.
